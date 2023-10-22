@@ -64,8 +64,6 @@ const Conta = {
         return gruposTransacoes;
     },
 
-
-
     registrarTransacao(novaTransacao: Transacao): void {
 
         if (novaTransacao.tipoTransacao == TipoTransacao.DEPOSITO) {
